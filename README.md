@@ -1,13 +1,15 @@
-# batch-gradient-descent
-Simple example of "Batch" Gradient Descent
+# Batch Gradient Descent
+Simple example of "Batch" Gradient Descent.
+
+Our best hypothesis function is found by minimising the
+sum of the squared difference between the prediction of y
+and the actual value of y.
 
 ## Limitations
 Gradient descent will find the local minimum from a given
 start point, rather than the global minimum.
 
-In our code the best hypothesis function is found by
-minimising the sum of the squared difference between the
-prediction of y and the actual value of y. For our choice
+This doesn't matter in our example, for our choice
 of cost function there is only one local minimum, therefore
 the local and global minimum are the same.
 
