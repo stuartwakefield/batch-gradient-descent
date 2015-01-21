@@ -60,11 +60,11 @@ def main():
 
     rooms = 2
     pcm = roomstopcm(rooms)
-    print('For {0} PCM you could get {1} rooms'.format(pcm, rooms))
+    print('For {0:.2f} PCM you could get {1:.1f} rooms'.format(pcm, rooms))
 
-    pcm = 1400
+    pcm = 1000
     rooms = pcmtorooms(pcm)
-    print('For {0} PCM you could get {1} rooms'.format(pcm, rooms))
+    print('For {0:.2f} PCM you could get {1:.1f} rooms'.format(pcm, rooms))
 
 if __name__ == '__main__':
     main()
